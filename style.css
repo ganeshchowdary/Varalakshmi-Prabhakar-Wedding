@@ -129,3 +129,24 @@ h1, h2, h3, p { margin-top: 0; }
   .countdown-unit { min-width: 65px; }
   .gallery-grid { grid-template-rows: 210px 160px 160px; gap: 9px; }
 }
+
+/* Center and soften the Love in Frames photo */
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.gallery-photo {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  margin: 0 auto;
+  opacity: 0.78;
+  border-radius: 12px;
+  object-fit: contain;
+}
+
